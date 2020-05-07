@@ -26,7 +26,7 @@ SECRET_KEY = 'e*by7-1#gn6kijp#ta@ehgmh_7tui^=(4t)7wys+es5va1pa=7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['obinnaunigwe1.pythonanywhere.com']
 
 
 # Application definition
@@ -126,3 +126,5 @@ STATIC_URL = '/assets/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'assets')
 ]
+
+STATIC_ROOT = '/home/ObinnaUnigwe1/Bolt/assets'
